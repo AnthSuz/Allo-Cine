@@ -7,11 +7,64 @@
   margin: 14px;
 }
 /* ---------- Body ---------- */
+section {
+  background-color: #f4f4f4;
+}
+
 .tab {
   display: flex;
   justify-content: space-evenly;
-  width: 500px;
+  width: 600px;
 }
 .tab p {
   font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tab p:hover {
+  color: grey;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inside_card {
+  display: flex;
+  margin: 40px;
+  box-shadow: 0 0 10px gray;
+}
+
+.inside_card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.info_movies {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 500px;
+  padding: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.date {
+  font-size: 16px;
+}
+
+.overview {
+  font-size: 14px;
+}
+
+.oui {
+  text-decoration: underline;
+  text-underline-position: under;
 }
